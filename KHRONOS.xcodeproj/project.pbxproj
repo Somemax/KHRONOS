@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		4044C1D1183E2374003412B6 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4044C1D0183E2374003412B6 /* main.cpp */; };
 		4044C1D3183E2374003412B6 /* KHRONOS.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4044C1D2183E2374003412B6 /* KHRONOS.1 */; };
+		4044C1DD183EF116003412B6 /* RandomNumber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4044C1DB183EF116003412B6 /* RandomNumber.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +29,8 @@
 		4044C1CD183E2374003412B6 /* KHRONOS */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = KHRONOS; sourceTree = BUILT_PRODUCTS_DIR; };
 		4044C1D0183E2374003412B6 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		4044C1D2183E2374003412B6 /* KHRONOS.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = KHRONOS.1; sourceTree = "<group>"; };
+		4044C1DB183EF116003412B6 /* RandomNumber.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RandomNumber.cpp; sourceTree = "<group>"; };
+		4044C1DC183EF116003412B6 /* RandomNumber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RandomNumber.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +73,7 @@
 		4044C1D9183E2394003412B6 /* Sourcefiles */ = {
 			isa = PBXGroup;
 			children = (
+				4044C1DB183EF116003412B6 /* RandomNumber.cpp */,
 				4044C1D0183E2374003412B6 /* main.cpp */,
 			);
 			name = Sourcefiles;
@@ -78,6 +82,7 @@
 		4044C1DA183E239B003412B6 /* Headfiles */ = {
 			isa = PBXGroup;
 			children = (
+				4044C1DC183EF116003412B6 /* RandomNumber.h */,
 			);
 			name = Headfiles;
 			sourceTree = "<group>";
@@ -134,6 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4044C1D1183E2374003412B6 /* main.cpp in Sources */,
+				4044C1DD183EF116003412B6 /* RandomNumber.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
