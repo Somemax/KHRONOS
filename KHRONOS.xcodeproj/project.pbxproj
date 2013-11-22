@@ -60,10 +60,26 @@
 		4044C1CF183E2374003412B6 /* KHRONOS */ = {
 			isa = PBXGroup;
 			children = (
-				4044C1D0183E2374003412B6 /* main.cpp */,
+				4044C1DA183E239B003412B6 /* Headfiles */,
+				4044C1D9183E2394003412B6 /* Sourcefiles */,
 				4044C1D2183E2374003412B6 /* KHRONOS.1 */,
 			);
 			path = KHRONOS;
+			sourceTree = "<group>";
+		};
+		4044C1D9183E2394003412B6 /* Sourcefiles */ = {
+			isa = PBXGroup;
+			children = (
+				4044C1D0183E2374003412B6 /* main.cpp */,
+			);
+			name = Sourcefiles;
+			sourceTree = "<group>";
+		};
+		4044C1DA183E239B003412B6 /* Headfiles */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Headfiles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
